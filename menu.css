@@ -1,0 +1,139 @@
+body {
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: 55% 5%;
+
+}
+
+#newgame {
+    position: absolute;
+    top: 50%;
+    left: 42%;
+    background-color: rgb(202, 37, 100);
+    padding: 10px 20px;
+    font-size: 25px;
+    border-radius: 10px;
+    width: 15%;
+    color: rgb(255, 255, 255);
+    border-color: rgb(202, 37, 100);
+    font-weight: bold;
+}
+
+#newgame:active {
+    font-size: 26px;
+    color: rgb(185, 20, 136);
+}
+
+#newgame:hover {
+    color: rgb(241, 119, 137);
+}
+
+#difficulty {
+    position: absolute;
+    top: 59%;
+    left: 42%;
+    width: 15%;
+    height: 6.5%;
+    background-color: rgb(202, 37, 100);
+    font-size: 20px;
+    text-align: center;
+    border-radius: 10px;
+    color: rgb(255, 255, 255);
+    border-color: rgb(202, 37, 100);
+    font-weight: bold;
+}
+#difficulty:active {
+    background-color: rgb(202, 37, 100);
+    border-color: rgb(185, 20, 136);
+}
+.form-control{
+    display: block;
+    text-align-last: center;
+    padding-right: 15px;
+    font-size: 25px;
+    line-height: 1.42857143;
+    color: #555;
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    
+	
+    -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+    box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+    -webkit-transition: border-color ease-in-out .15s,-webkit-box-shadow ease-in-out .15s;
+    -o-transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+    transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+
+}
+
+#controls {
+    position: absolute;
+    top: 66.5%;
+    left: 42%;
+    background-color: rgb(202, 37, 100);
+    padding: 10px 20px;
+    font-size: 20px;
+    border-radius: 10px;
+    width: 15%;
+    color: rgb(255, 255, 255);
+    border-color: rgb(202, 37, 100);
+    font-weight: bold;
+}
+
+#controls :active {
+    font-size: 26px;
+    color: rgb(185, 20, 136);
+}
+
+#controls:hover {
+    color: rgb(241, 119, 137);
+}
+#credits {
+    position: absolute;
+    top: 74.5%;
+    left: 42%;
+    background-color: rgb(202, 37, 100);
+    padding: 10px 20px;
+    font-size: 20px;
+    border-radius: 10px;
+    width: 15%;
+    color: rgb(255, 255, 255);
+    border-color: rgb(202, 37, 100);
+    font-weight: bold;
+}
+
+#credits:active {
+    font-size: 26px;
+    color: rgb(185, 20, 136);
+}
+
+#credits:hover {
+    color: rgb(241, 119, 137);
+}
+#back {
+    position: absolute;
+    top: 77%;
+    left: 42%;
+    background-color: rgb(202, 37, 100);
+    padding: 10px 20px;
+    font-size: 20px;
+    border-radius: 10px;
+    width: 15%;
+    color: rgb(255, 255, 255);
+    border-color: rgb(202, 37, 100);
+    font-weight: bold;
+}
+
+#retangulo {
+    position: absolute;
+    top: 44%;
+    left: 33%;
+    width:500px;
+    height:200px;
+    border:1px solid rgb(146, 23, 115);
+    color: rgb(255, 255, 255);
+    background: rgb(202, 37, 100);
+    border-radius: 10px;
+    
+}

@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>SpaceSnake Menu</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb"
+        crossorigin="anonymous">
+    <link rel="stylesheet" href="menu.css">
+</head>
+
+<body scroll="no" style="overflow: hidden" background="images\MenuBackground.jpg">
+
+    <button id="newgame" type="button" class="btn btn-lg btn-outline-danger">
+        <a href="#" onclick = "dificuldades()" style="text-decoration: none; color: white">New Game</a>
+    </button>
+    <script>
+        function dificuldades(){
+            var dificuldade = document.getElementById("difficulty").value;
+            console.log(dificuldade);
+            if (dificuldade == "easy")
+            {
+                window.location = 'Snake codigo/snakeeasy.html';
+            }
+            if (dificuldade == "normal")
+            {
+                window.location = 'Snake codigo/snakenormal.html';
+            }
+            if (dificuldade == "hard")
+            {
+                window.location = 'Snake codigo/snakehard.html';
+            }
+            if (dificuldade == "insane")
+            {
+                window.location = 'Snake codigo/snakeinsane.html';
+            }
+
+        }
+    </script>
+    <div class="form-group">
+        <select class="form-control" id="difficulty">
+            <option value="easy">Easy</option>
+            <option value="normal">Normal</option>
+            <option value="hard">Hard</option>
+            <option value="insane">Insane</option>
+        </select>
+    </div>
+    <button id="controls" type="button" class="btn btn-lg btn-outline-danger">
+            <a href="controls.html" style="text-decoration: none; color: white">Controls</a>
+        </button>
+    <button id="credits" type="button" class="btn btn-lg btn-outline-danger">
+        <a href="credits.html" style="text-decoration: none; color: white">Credits</a>
+    </button>
+</body>
+
+</html>
